@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Weather Update</title>
+
+    <script src="https://kit.fontawesome.com/3cd3bf3bac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+        <div class="header1 " >
+            <img src="images/weather1.webp" alt="">
+        </div>
+    
+        <div class="header2 ">
+
+            <div class="container">
+                <div class="dropdown">
+                 
+                    <button type="button"  data-bs-toggle="dropdown" id="toggle"><i class="fa-solid fa-bars"></i>Menu</button>
+                  
+                  <ul class="dropdown-menu">
+                    
+                    <li><a class="dropdown-item">Sample1</a></li>
+                    <li><a class="dropdown-item">Sample2</a></li>
+                    <li><a class="dropdown-item">Sample3</a></li>
+                    <li><a class="dropdown-item">Sample4</a></li>
+          
+                  </ul>
+                </div>
+              </div>
+              
+            <!-- <i class="fa-solid fa-bars"></i> -->
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          
+    
+        </div>
+
+    
+<br><br><br>
+
+        <h2 id="titleheader">தமிழக வானிலை</h2>
+
+    <div>
+
+    <!-- <form action="" class="form" id="formirctc">
+        <button id="pnrstatus" type="button">Button 1</button>
+        <br>
+        
+        <button id="vacancy" type="button">Button 2</button>
+        
+        <br>
+      
+        <img id="formpic2" src="images/weather1.webp" alt="Pic1">
+        <br><h2 id="weatherupdate">Weather Update</h2>
+        <img  src="images/weather1.webp" alt="Pic2">
+        
+        <br><br><br><br><br><br> -->
+        
+        <!-- <label for="choice">From</label>
+        <select name="choice" id="choice" >
+            <option value="MGR CHENNAI CTL-MAS">MGR CHENNAI CTL-MAS</option>
+            <option value="MADURAI JN-MDU">MADURAI JN-MDU</option>
+            <option value="JAIPUR-JP">JAIPUR-JP</option>
+        </select> 
+        <br><br>
+        
+        <label for="choice2">To</label>
+        <select name="choice2" id="choice2">
+            <option value="MGR CHENNAI CTL-MAS">MGR CHENNAI CTL-MAS</option>
+            <option value="MADURAI JN-MDU">MADURAI JN-MDU</option>
+            <option value="JAIPUR-JP">JAIPUR-JP</option>
+        </select>
+
+       <br><br>
+
+       <label for="date">DD/MM/YYY</label>
+        <input type="date" id="Date1" name="Date1" placeholder="Travel Date">
+        
+        <br><br>
+        
+        <label for="choice3">All Classes</label>
+        <select name="choice3" id="choice3">
+            <option value="All Classes">All Classes</option>
+            <option value="AC First Class(1A)">AC First Class(1A)</option>
+            <option value="AC 2 Tier (2A)">AC 2 Tier (2A)</option>
+            <option value="AC 3 Tier (3A)">AC 3 Tier (3A)</option>
+        </select>
+
+        <br><br>
+
+        <label for="choice4"> Compartment</label>
+        <select name="choice4" id="choice4">
+            <option value="Genral">General</option>
+            <option value="Tatkal">Tatkal</option>
+            <option value="Premium Tatkal">Premium Tatkal</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="check1" name="check1">
+        <label for="check1">Person With Disability Concession</label>
+        &nbsp;&nbsp;&nbsp;
+
+        <input type="checkbox" id="check2" name="check2">
+        <label for="check2">Flexible With Date</label>
+
+        <br>
+        
+        <input type="checkbox" id="check3" name="check3">
+        <label for="check3">Train With Available Berth</label>
+        &nbsp;&nbsp;&nbsp;
+
+        <input type="checkbox" id="check4" name="check4">
+        <label for="check4">Railway Pass Concession</label>
+
+        <br><br>
+
+        <button id="button1" type="button">Search</button>
+        &nbsp;&nbsp;&nbsp;
+        <button id="button2" type="button" >Try booking in Ask DISHA 2.0</button> -->
+        
+
+    <!-- </form> -->
+
+    <!-- <div id="text">
+        <h6 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero delectus minus. Consequuntur unde odio distinctio quidem minus, quia nam facere ex, at cum quae dolorum sapiente consectetur, iure repudiandae. <a href="#">Click here</a> to know full details</h6>
+    </div> -->
+
+    
+
+    <div class="train" id="train">
+        <img src="images/AFoJ.gif" alt="">
+
+    </div>
+   
+</div>
+    <div>
+    </div>
+<br><br><br><br>
+
+    <div class="container3">
+
+       
+        <h2>Have you get updated on today's weather?</h2>
+        <h2>Find a suitable search here.</h2>
+
+        <br>
+        <div class="row">
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="flights">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample1
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0" >
+                <div class="card"  id="book" >
+                    <div class="card-text">
+                        <a href="#" title="hotels">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample2
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="bus">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample3
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="ac-bus">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample4
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="tourist train">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title" >
+                        Sample5
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="hill railways">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample6
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="charter train">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample7
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 g-0">
+                <div class="card" id="book">
+                    <div class="card-text">
+                        <a href="#" title="gallery">
+                            <i class="fa-solid fa-image"></i>
+                            </a>
+                    </div>
+                    <div class="card-title">
+                        Sample8
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="video">
+        <br><br><br>
+          <iframe id="videoid" src="videos/trainvideo.mp4" width="750" height="250" title="Video"></iframe> 
+          
+    </div> 
+    <br><br><br>
+
+        
+    <div class="container5">
+            <br><br>
+            <h1>Checkout the sites</h1> 
+            <br>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-image-top" src="images/Radar_cover.webp" title="Maharaja's Express">
+            <div class="card-title">
+              <a href="https://ddgmui.imd.gov.in/radar/GisKaraikal.php">ரேடார்</a>
+              <br>
+              <a href="https://www.rain-alarm.com/">ரேடார் அனிமேஷன்</a>
+            </div>
+            <div class="card-text">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.</p>
+              <div class="btn btn-link">Read more-></div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                  <img class="card-image-top" src="images/rainy.jpg" title="International Packages">
+                <div class="card-title">
+                    <a href=" https://beta-tnsmart.rimes.int/index.php/Rainfall/daily_data">கடந்த 24 மணி நேர மழை அளவு</a>
+                </div>
+                <div class="card-text">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.</p>
+                  <div class="btn btn-link">Read more-></div>
+                </div>
+                </div>
+            </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-image-top" src="images/satellite.webp" title="Domestic Air Packages">
+                    <div class="card-title">
+                        <a href="https://mosdac.gov.in/live/index_one.php?url_name=india">செயற்கைகோள்</a>
+                    </div>
+                    <div class="card-text">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.</p>
+                      <div class="btn btn-link">Read more-></div>
+                    </div>
+                    </div>
+                </div>                
+
+        </div><br>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-image-top" src="images/autumn.avif" title="Bharat Gaurav Tourist Train">
+              <div class="card-title">
+                <a href="https://www.dapiya.top/satellite/floater/">புயல் நிலவரங்கள்</a>
+            
+              </div>
+              <div class="card-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.</p>
+                <div class="btn btn-link">Read more-></div>
+              </div>
+              </div>
+            </div>
+  
+              <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-image-top" src="images/RainAlarm.jpg" title="RailTour">
+                  <div class="card-title">
+                    <a href="https://www.rain-alarm.com/">Rainfall Alarm</a>
+                  </div>
+                  <div class="card-text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repudiandae assumenda aspernatur quos illum aliquam quas consectetur, quam odio sapiente possimus vitae, distinctio ullam, a voluptatum magnam excepturi. Architecto, aperiam.</p>
+                    <div class="btn btn-link">Read more-></div>
+                  </div>
+                  </div>
+               </div>
+       
+  
+      </div>
+    </div>
+
+        <br><br><br>
+       
+        <div class="socialmedia">
+            &nbsp;<h3>Get Connected with us on social media
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com/Arunkumarweather?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"> </a></i>
+                <a href="https://youtube.com/@Arunkumar31?si=y_zrd-qIMIVqhcMa"><i class="fa-brands fa-youtube"> </a></i>
+                
+                <a href="https://instagram.com/tn_storm_hacker?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
+            </h3>
+        </div>
+        <br>
+        <div id="id6">
+           <div id="id7">
+            <p>தமிழக வானிலை இந்த பக்கம் கடந்த 2016ம் ஆண்டு அக்டோபர் மாதம் 21 ஆம் தேதி தொடங்கப்பட்டது.</p>
+            <p> இந்தப் பக்கத்தில் முழுவதுமாக தமிழ்நாட்டின் வானிலை பற்றிய தகவல்கள் 95 சதவீதம் வரை இருக்கக்கூடும். </p>
+            <p>வானிலை பக்கத்தின் அனைத்து தரவுகளும் உலக அளவிலான வானிலை தரவுகளை வைத்து கணிக்கப்படுகிறது...</p>
+           </div>
+            <!-- <div class="row justify-content-center">
+                <div class="col-lg-2" >Link1</div>
+                <div class="col-lg-2">Link2</div>
+                <div class="col-lg-2" >Link3</div>
+                <div class="col-lg-2">Link4</div>
+            </div><br>
+    
+            <div class="row justify-content-center">
+                <div class="col-lg-2" >Link5</div>
+                <div class="col-lg-2">Link6</div>
+                <div class="col-lg-2" >Link7</div>
+                <div class="col-lg-2">Link8</div>
+            </div><br>
+            <div class="row justify-content-center">
+                <div class="col-lg-2" >Link9</div>
+                <div class="col-lg-2">Link10</div>
+                <div class="col-lg-2" >Link11</div>
+                <div class="col-lg-2">Link12</div>
+            </div><br>
+            <div class="row justify-content-center">
+                <div class="col-lg-2" >Link13</div>
+                <div class="col-lg-2">Link14</div>
+                <div class="col-lg-2" >Link15</div>
+                <div class="col-lg-2">Link16</div>
+            </div><br>
+            <div class="row justify-content-center">
+                <div class="col-lg-2" >Link17</div>
+                <div class="col-lg-2">Link18</div>
+                <div class="col-lg-2">Link19</div>
+                <div class="col-lg-2">Link20</div>
+            </div> -->
+
+        </div>        
+
+        <div class="footer">
+            <h5 id="line1">Copyright Â© 2023 - www.weather.co.in. All Rights Reserved</h5>
+            <h5 id="line2">Designed and Hosted by XXYY</h5>
+            
+        </div>
+
+        <div>
+            <img id="card2" src="images/weather1.webp" alt="">
+
+        </div>
+                        
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
